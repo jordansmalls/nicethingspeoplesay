@@ -1,4 +1,5 @@
 import User from "../models/user.model.js"
+import generateToken from "../utils/generate.token.js"
 
 // @desc    create user
 // @route   POST /api/auth

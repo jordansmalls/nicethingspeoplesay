@@ -34,5 +34,6 @@ export const env = {
     mongoUri: process.env.MONGO_URI,
     jwtSecret: process.env.JWT_SECRET,
     frontendLink: process.env.FRONTEND_LINK,
+    frontendLinkDev: process.env.FRONTEND_LINK_DEV,
     corsOptions: getCorsOptions(),
 };
